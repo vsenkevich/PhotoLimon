@@ -1,0 +1,11 @@
+commit d4c16cfc3f70fc912a03ea96536599c080df6145
+Author: Vladislav <mr.senkevich@gmail.com>
+Date:   Thu Feb 8 23:31:16 2018 +0300
+
+    add status.txt
+
+commit 48cc048d296bd72f311cb25a44dd5ccb55cb00d4
+Author: Vladislav <mr.senkevich@gmail.com>
+Date:   Thu Feb 8 23:29:28 2018 +0300
+
+    add .gitignore
