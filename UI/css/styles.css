@@ -1,0 +1,242 @@
+body{
+	font-family: Tahoma, sans-serif;
+	padding:  0;
+	margin: 0;
+	background: #e2dfde
+}
+
+div {
+	box-sizing: border-box;
+}
+
+.head {
+	background-color: #b7b7b7;
+	
+}
+
+.contaiter {
+	width: 930px;
+	margin:  0 auto;
+}
+
+.logo{
+	margin-top: 15px;
+	height:  55px;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+
+.add {
+	float: right;
+	margin-right: 10px;
+	margin-top: 15px;
+	height: 55px;
+	cursor: pointer;
+}
+
+.pic {
+	margin-top: 18px;
+	float:  right;
+	height: 50px;
+}
+
+.enter {
+	margin-top: 33px;
+	float:  right;
+	font-size: 16px;
+	text-decoration: none;
+	color: #000;
+	cursor: pointer;
+}
+
+.filterText{
+	float: left;
+	/*margin:  0 auto;*/
+	width: 700px;
+	overflow: hidden;
+}
+
+.filterText a{
+	float: left;
+	margin-left: 320px;
+	margin-top: 10px;
+	color: #000;
+	font-size: 20px;
+}
+
+.filter {
+	margin:  0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #fff9e0;
+	width: 700px;
+	height: 140px;
+}
+
+.choice {
+	margin:  0 auto;
+	float: left;
+	margin-top: 10px;
+	height: 30px;
+	width: 700px;
+}
+
+.choice input{
+	margin-left: 25px;
+	border:  0;
+	outline: 0;
+	background-color: #fff0ad;
+	font-size: 18px;
+	padding: 5px 5px 5px 5px;
+	border-radius: 10px;
+}
+
+.choice button{
+	margin-left: 310px;
+	margin-top: 10px;
+	border:  0;
+	outline: 0;
+	background-color: #fff0ad;
+	font-size: 14px;
+	padding: 9.5px 8.5px 6.2px 8.5px;
+	cursor: pointer;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.post {
+	margin:  0 auto;
+	margin-top: 20px;
+	background-color: #fff;
+	width: 700px;
+	overflow: hidden;
+}
+
+footer {
+	margin:  0 auto;
+	margin-top: 20px;
+	height: 70px;
+	width:  700px;
+	background-color: #e2dfde;
+}
+
+nav{
+	display: block;
+	float: left;
+	padding:  0;
+	margin: 0;
+}
+
+.foot {
+	padding:  0;
+	margin: 0;
+	display: block;
+}
+
+.foot li{
+	float: right;	
+	display: block;
+	margin-left: 53px;
+}
+
+.foot a{
+	color: #000;
+	text-decoration: none;
+}
+
+.post a1
+{
+	float: left;
+	margin-top: 12px;
+	margin-left:  10px;
+	text-decoration: none;
+	color:  #000;
+	font-size:  20px;
+}
+
+.post a2{
+	float: right;
+	margin-right: 10px;
+	margin-top: 14px;
+}
+
+.post a3{
+	float: right;
+	margin-right: 10px;
+	margin-top: 14px;
+	}
+
+.photo{
+	float: left;
+	margin-top: 12px;
+	width: 100%;
+}
+
+.like{
+	float:left;
+	margin-top: 10px;
+	margin-left: 30px;
+	height: 45px;
+	cursor: pointer;
+	margin-bottom: 15px;
+}
+
+.post a4 {
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 20px;
+	color: #000;
+}
+
+.post ul{
+	margin-top: 25px;
+	float: right;
+}
+
+.post li{
+	float: right;
+	margin-right: 20px;
+	cursor: pointer;
+	list-style-type: none;
+
+}
+
+.post a5 {
+	margin-top: 100px;
+	float: left;
+	font-size: 20px;
+	color: #000;
+}
+
+.tags a{
+	float: left;
+	margin-left: 30px; 
+	font-size: 20px;
+}
+
+.tags{
+	margin:  0 auto;
+	float: left;
+	height: 25px;
+	width:  700px;
+	background-color: #fff;
+}
+
+.tagsArea{
+	margin:  0 auto;
+	float: left;
+	margin-left: 30px;
+	margin-top: 10px;
+	width:  640px;
+	background-color: #e2dfde;
+	margin-bottom: 20px;
+}
+
+.tagsArea a{
+	float: left;
+	margin-left: 10px; 
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 15px;
+}
