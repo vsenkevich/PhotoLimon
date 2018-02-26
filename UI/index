@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="rus">
+
+<head>
+	<link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+	<meta charset="UTF - 8">
+	<title>PhotoLemon</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+	<header>
+		<div class="head">
+			<div class="contaiter">
+				<img src="img/logo.png" alt="PhotoLemon" class="logo">
+				<a href="#" class="enter">BossLemon</a>	
+				<img src="img/enter.png" alt="PhotoLemon" class="pic">	
+			  	<img src="img/add.png" alt="PhotoLemon" class="add">
+			</div>
+		</div>
+	</header>	
+
+	<section>
+		<div class="filter">
+			<div class="filterText">
+				<a>Фильтр:<a>
+			</div>
+
+			<div class="choice">
+				<form>
+					
+					<input type="text" size="10" placeholder="от 26.01.2018">
+					<input type="text" size="10" placeholder="до 28.01.2018" >	
+					<input type="text" size="10" placeholder="BossLemon" >
+					<input type="text" size="10" placeholder="#Lemon">
+				</form>
+
+				<button type="submit">Применить</button>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="post">
+
+			<a1>BossLemon</a1>
+			<a2>17.02.2018</a2>
+			<a3>22:39</a3>
+
+			<img src="img/img1.jpg" alt ="PhotoLemon" class="photo">
+			<img src="img/like.png" alt="PhotoLemon" class="like">
+
+			<a4>Lime it!</a4>
+
+			<ul>
+				<li>
+					Изменить
+				</li>
+				<li class="delete">
+					Удалить
+				</li>
+			</ul>
+
+			<div class="tags">
+				<a>#Tags:</a>
+			</div>
+
+			<div class="tagsArea">
+				<a>#Lemon #PhotoLemon #BossLemon</a>
+			</div>
+			<div class="tags">
+				<a>Описание:</a>
+			</div>
+
+			<div class="tagsArea">
+				<a> Очень вкусный чай - это чаёк с лимоном! <p> Попробуйте сами</p></a>
+			</div>
+
+		</div>
+	</section>
+
+	<section>
+		<div class="post">
+
+			<a1>MissLime</a1>
+			<a2>16.02.2018</a2>
+			<a3>18:12</a3>
+
+			<img src="img/img2.jpg" alt ="PhotoLemon" class="photo">
+			<img src="img/like.png" alt="PhotoLemon" class="like">
+			
+			<a4>Lime it!</a4>
+
+			<div class="tags">
+				<a>#Tags:</a>
+			</div>
+
+			<div class="tagsArea">
+				<a>#Lemon #PhotoLemon #MissLemon</a>
+			</div>
+			<div class="tags">
+				<a>Описание:</a>
+			</div>
+
+			<div class="tagsArea">
+				<a> Родиной лимонов считаютсятропики и субтропики Китая, Индии и Бирмы. В настоящее время культивируется в странах Средиземноморья, США, на Кавказе</a>
+			</div>
+
+		</div>
+	</section>
+
+	<section>
+		<div class="post">
+
+			<a1>BoyLime</a1>
+			<a2>16.02.2018</a2>
+			<a3>08:22</a3>
+
+			<img src="img/img3.jpg" alt ="PhotoLemon" class="photo">
+			<img src="img/likedone.png" alt="PhotoLemon" class="like">
+			
+			<a4>You Lime it!</a4>
+
+			<div class="tags">
+				<a>#Tags:</a>
+			</div>
+
+			<div class="tagsArea">
+				<a>#Lemon #LimeForLime #BoyLemon</a>
+			</div>
+			<div class="tags">
+				<a>Описание:</a>
+			</div>
+
+			<div class="tagsArea">
+				<a>А ты знаешь, откуда и кто привез лимон? Этот кислый фрукт родом из Индии попал к нам благодаря войнам Александра Македонского. Изначально лимон назывался индийское яблоко.</a>
+			</div>
+
+		</div>
+	</section>
+
+	<section>
+		<div class="post">
+
+			<a1>GirlLime</a1>
+			<a2>15.02.2018</a2>
+			<a3>21:53</a3>
+
+			<img src="img/img4.jpg" alt ="PhotoLemon" class="photo">
+			<img src="img/like.png" alt="PhotoLemon" class="like">
+			
+			<a4>Lime it!</a4>
+
+			<div class="tags">
+				<a>#Tags:</a>
+			</div>
+
+			<div class="tagsArea">
+				<a>#Lemon #LimeForLime #GirlLemon</a>
+			</div>
+			<div class="tags">
+				<a>Описание:</a>
+			</div>
+
+			<div class="tagsArea">
+				<a>Лимон предохраняет организм от цинги. Британское Адмиралтейство даже наградило Дж. Кука золотой медалью Королевского общества за спасение жизней и здоровья моряков.</a>
+			</div>
+
+		</div>
+	</section>
+
+	<section>
+		<div class="post">
+
+			<a1>DolceVita</a1>
+			<a2>15.02.2018</a2>
+			<a3>12:48</a3>
+
+			<img src="img/img5.jpg" alt ="PhotoLemon" class="photo">
+			<img src="img/like.png" alt="PhotoLemon" class="like">
+			
+			<a4>Lime it!</a4>
+
+			<div class="tags">
+				<a>#Tags:</a>
+			</div>
+
+			<div class="tagsArea">
+				<a>#Lemon #DolceVita #Clothes</a>
+			</div>
+			<div class="tags">
+				<a>Описание:</a>
+			</div>
+
+			<div class="tagsArea">
+				<a>С помощью лимона можно даже сорвать концерт. Так концерт духового оркестра сорвали дети, которые сидели в первых рядах. От обильного слюноотделения музыканты не смогли играть на инструментах.</a>
+			</div>
+
+		</div>
+	</section>
+
+	<section>
+		<div class="post">
+
+			<a1>It'sMamix</a1>
+			<a2>15.02.2018</a2>
+			<a3>04:13</a3>
+
+			<img src="img/img6.jpg" alt ="PhotoLemon" class="photo">
+			<img src="img/like.png" alt="PhotoLemon" class="like">
+			
+			<a4>Lime it!</a4>
+
+			<div class="tags">
+				<a>#Tags:</a>
+			</div>
+
+			<div class="tagsArea">
+				<a>#Lemon #Video #Mamix #YouTube</a>
+			</div>
+			<div class="tags">
+				<a>Описание:</a>
+			</div>
+
+			<div class="tagsArea">
+				<a>Как известно, ветвь оливы является символом мира, лавр – символом славы, а терн – символом суровости и наказания. Лимон по наводке О.Ю. Шмидта стал символом дружбы 126 стран. </a>
+			</div>
+
+		</div>
+	</section>
+
+	<section>
+		<div class="post">
+
+			<a1>Colgate</a1>
+			<a2>14.02.2018</a2>
+			<a3>22:02</a3>
+
+			<img src="img/img7.jpg" alt ="PhotoLemon" class="photo">
+			<img src="img/like.png" alt="PhotoLemon" class="like">
+			
+			<a4>Lime it!</a4>
+
+			<div class="tags">
+				<a>#Tags:</a>
+			</div>
+
+			<div class="tagsArea">
+				<a>#Lemon #Video #Colgate #Medicine</a>
+			</div>
+			<div class="tags">
+				<a>Описание:</a>
+			</div>
+
+			<div class="tagsArea">
+				<a>В испанском фольклоре лимон – это символ горькой, обманутой любви. Сладкую любовь символизирует апельсин. </a>
+			</div>
+
+		</div>
+	</section>
+
+	<section>
+		<div class="post">
+
+			<a1>KateOnly</a1>
+			<a2>14.02.2018</a2>
+			<a3>09:35</a3>
+
+			<img src="img/img8.jpg" alt ="PhotoLemon" class="photo">
+			<img src="img/like.png" alt="PhotoLemon" class="like">
+			
+			<a4>Lime it!</a4>
+
+			<div class="tags">
+				<a>#Tags:</a>
+			</div>
+
+			<div class="tagsArea">
+				<a>#Lemon #PhotoLemon #Kate #LimeMe</a>
+			</div>
+			<div class="tags">
+				<a>Описание:</a>
+			</div>
+
+			<div class="tagsArea">
+				<a>В XVII веке лимон был практически недоступен простому человеку. Богатые же выписывали лимоны из Голландии. Их им доставляли в соленом виде. Интересно, как они его потом ели?</a>
+			</div>
+
+		</div>
+	</section>
+
+	<section>
+		<div class="post">
+
+			<a1>Brandt</a1>
+			<a2>13.02.2018</a2>
+			<a3>23:23</a3>
+
+			<img src="img/img9.jpg" alt ="PhotoLemon" class="photo">
+			<img src="img/like.png" alt="PhotoLemon" class="like">
+			
+			<a4>Lime it!</a4>
+
+			<div class="tags">
+				<a>#Tags:</a>
+			</div>
+
+			<div class="tagsArea">
+				<a>#Lemon #PhotoLemon #Brandt #LimeMe #Beautiful</a>
+			</div>
+
+			<div class="tags">
+				<a>Описание:</a>
+			</div>
+
+			<div class="tagsArea">
+				<a>На званых вечерах или вообще не подают чернику, или подают ее с ломтиками лимона: черника окрашивает губы, а лимон снимает эту окраску.</a>
+			</div>
+
+		</div>
+	</section>
+
+	<section>
+		<div class="post">
+
+			<a1>IscoOfficial</a1>
+			<a2>12.02.2018</a2>
+			<a3>01:03</a3>
+
+			<img src="img/img10.jpg" alt ="PhotoLemon" class="photo">
+			<img src="img/likedone.png" alt="PhotoLemon" class="like">
+			
+			<a4>YouLime it!</a4>
+
+			<div class="tags">
+				<a>#Tags:</a>
+			</div>
+
+			<div class="tagsArea">
+				<a>#Lemon #Real #Madrid #Isco #Win</a>
+			</div>
+			
+			<div class="tags">
+				<a>Описание:</a>
+			</div>
+
+			<div class="tagsArea">
+				<a>Ла Лига. 25 тур. 
+					<p>«Реал Мадрид» 4–0 «Алавес» </p>
+				 	<p>1-0 Иско(Бензема) 44'</p>
+				 	<p>2-0 Бэйл (Бензема) 46'</p>
+					<p>3-0 Роналду (Иско) 61'</p>
+ 					<p>4-0 Бензема (пен.) 89'</p>
+ 				</a>
+			</div>
+
+		</div>
+	</section>
+
+	<footer>
+		<nav>
+			<ul class="foot">
+				<li>
+					<a>Cенькевич Владислав</a>
+				</li>
+				<li>
+					<a>БГУ</a>
+				</li>
+				<li>
+					<a>ФПМИ</a>
+				</li>
+				<li>
+					<a>2018</a>
+				</li>
+				<li>
+					<a> © PhotoLemon</a>
+				</li>
+			</ul>
+	</nav>
+	</footer>
+</body>
+
+</html>
