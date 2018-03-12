@@ -162,14 +162,15 @@ const Dom = (function () {
         userName = str;
         sign.innerHTML = userName;
 
-        let buttonAdd = document.querySelector('.contaiter');
-        let img = document.createElement('img');
-        img.src = 'img/add.png';
-        img.className = 'add';
-        img.alt = 'PhotoLemon photo';
-        buttonAdd.appendChild(img);
-
-
+            let buttonAdd = document.querySelector('.contaiter');
+            if (buttonAdd.childNodes.length === 7) {
+                console.log(buttonAdd.childNodes.length);
+                let img = document.createElement('img');
+                img.src = 'img/add.png';
+                img.className = 'add';
+                img.alt = 'PhotoLemon photo';
+                buttonAdd.appendChild(img);
+            }
     }
 
     return {
