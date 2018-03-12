@@ -61,7 +61,7 @@ const niceToAdd = {
     id: "35",
     description: "Every day may not be good, but there is something good in every day.",
     createdAt: new Date("2018-02-19T22:18:38"),
-    author: "yourMother",
+    author: "kotpes",
     photoLink: "http://kot-pes.com/wp-content/uploads/2016/08/image10-2-650x520.jpeg",
     hashTags: ["wisdom"],
     likes: ["Wonder", "Zayn", "Lauv", "Sia", "Alt-J"]
