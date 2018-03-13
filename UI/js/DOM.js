@@ -1,6 +1,8 @@
 const Dom = (function () {
     let userName = null;
     let posts = document.querySelector('.posts');
+    let buttonAdd = document.querySelector('.contaiter');
+    let constHeadChild = buttonAdd.childNodes.length;
 
 
     function buildPost(obj) {
@@ -9,30 +11,26 @@ const Dom = (function () {
         postContent.className = 'post';
         let user = document.createElement('a1');
         user.innerHTML = obj.author;
-        postContent.appendChild(user); // 0 - ой
+        postContent.appendChild(user);
 
-        let str1, str2, str3;
-        let date = document.createElement('a2');
-        str1 = '' + obj.createdAt.getDate();
-        str2 = '' + (obj.createdAt.getMonth() + 1);
-        str3 = '' + obj.createdAt.getFullYear();
-        if (str1.length == 1)
-            str1 = '0' + str1;
-        if (str2.length == 1)
-            str2 = '0' + str2;
-        date.innerHTML = str1 + '.' + str2 + '.' + str3;
+        loadDate(obj, postContent);
 
-        let time = document.createElement('a3');
-        str1 = '' + obj.createdAt.getHours();
-        str2 = '' + obj.createdAt.getMinutes();
-        if (str1.length == 1)
-            str1 = '0' + str1;
-        if (str2.length == 1)
-            str2 = '0' + str2;
-        time.innerHTML = str1 + ':' + str2;
-        postContent.appendChild(time); // 1 - ый
-        postContent.appendChild(date); // 2 - ой
+        loadImg(obj, postContent);
 
+        loadLikes(obj, postContent);
+
+        loadUserArea(obj, postContent);
+
+        loadTags(obj, postContent);
+
+        loadDescription(obj, postContent);
+
+        post.appendChild(postContent);
+        post.id = obj.id;
+        return post;
+    }
+
+    function loadImg(obj, postContent) {
         let img_conteiner = document.createElement('div');
         let img = document.createElement('img');
         img.src = obj.photoLink;
@@ -40,21 +38,23 @@ const Dom = (function () {
         img.className = 'photo';
         img_conteiner.appendChild(img);
         postContent.appendChild(img_conteiner); // 3 - ий
+    }
 
+    function loadLikes(obj, postContent) {
         let count = 0;
         obj.likes.forEach( (el) => {
-                if (el === userName && userName !== null) {
-                    let like = document.createElement('img');
-                    like.src = 'img/likedone.png';
-                    like.alt = 'PhotoLemon like';
-                    like.className = 'like';
-                    postContent.appendChild(like);
-                    let likeText = document.createElement('a4');
-                    likeText.innerHTML = "You Lime it!";
-                    postContent.appendChild(likeText);
-                    count = 1;
-                }
-            });
+            if (el === userName && userName !== null) {
+                let like = document.createElement('img');
+                like.src = 'img/likedone.png';
+                like.alt = 'PhotoLemon like';
+                like.className = 'like';
+                postContent.appendChild(like);
+                let likeText = document.createElement('a4');
+                likeText.innerHTML = "You Lime it!";
+                postContent.appendChild(likeText);
+                count = 1;
+            }
+        });
 
         if (count === 0) {
             let like = document.createElement('img');
@@ -66,19 +66,9 @@ const Dom = (function () {
             likeText.innerHTML = "Lime it!";
             postContent.appendChild(likeText);
         }
+    }
 
-        if (userName === obj.author) {
-            let userArea = document.createElement('ul');
-            let change = document.createElement('li');
-            change.innerHTML = 'Изменить';
-            let deletePost = document.createElement('li');
-            deletePost.className = 'delete';
-            deletePost.innerHTML = 'Удалить';
-            userArea.appendChild(change);
-            userArea.appendChild(deletePost);
-            postContent.appendChild(userArea); // 7 - ый
-        }
-
+    function loadTags(obj, postContent) {
         let tags = document.createElement('div');
         tags.className = 'tags';
         let tagsHeader = document.createElement('a');
@@ -94,7 +84,9 @@ const Dom = (function () {
         }
         tagsArea.appendChild(tagsText);
         postContent.appendChild(tagsArea); // 9 - ой
+    }
 
+    function loadDescription(obj, postContent) {
         let description = document.createElement('div');
         description.className = 'tags';
         let descriptionHeader = document.createElement('a');
@@ -108,10 +100,48 @@ const Dom = (function () {
         descriptionText.innerHTML = obj.description;
         descriptionArea.appendChild(descriptionText);
         postContent.appendChild(descriptionArea); // 11 - ый
+    }
 
-        post.appendChild(postContent);
-        post.id = obj.id;
-        return post;
+    function loadDate(obj, postContent) {
+        let date1, date2, date3;
+        let date = document.createElement('a2');
+        date1 = `${obj.createdAt.getDate()}`;
+        date2 = `${obj.createdAt.getMonth() + 1}`;
+        date3 = `${obj.createdAt.getFullYear()}`;
+        if (date1.length === 1) {
+            date1 = `0${date1}`;
+        }
+        if (date2.length === 1) {
+            date2 = `0${date2}`;
+        }
+        date.innerHTML = `${date1}.${date2}.${date3}`;
+
+        let time = document.createElement('a3');
+        date1 = `${obj.createdAt.getHours()}`;
+        date2 = `${obj.createdAt.getMinutes()}`;
+        if (date1.length === 1) {
+            date1 = `0${date1}`;
+        }
+        if (date2.length === 1) {
+            date2 = `0${date2}`;
+        }
+        time.innerHTML = `${date1}:${date2}`;
+        postContent.appendChild(time); // 1 - ый
+        postContent.appendChild(date); // 2 - ой
+    }
+
+    function loadUserArea(obj, postContent) {
+        if (userName === obj.author) {
+            let userArea = document.createElement('ul');
+            let change = document.createElement('li');
+            change.innerHTML = 'Изменить';
+            let deletePost = document.createElement('li');
+            deletePost.className = 'delete';
+            deletePost.innerHTML = 'Удалить';
+            userArea.appendChild(change);
+            userArea.appendChild(deletePost);
+            postContent.appendChild(userArea); // 7 - ый
+        }
     }
 
     function displayPhotoPosts(photoPosts) {
@@ -162,15 +192,13 @@ const Dom = (function () {
         userName = str;
         sign.innerHTML = userName;
 
-            let buttonAdd = document.querySelector('.contaiter');
-            if (buttonAdd.childNodes.length === 7) {
-                console.log(buttonAdd.childNodes.length);
-                let img = document.createElement('img');
-                img.src = 'img/add.png';
-                img.className = 'add';
-                img.alt = 'PhotoLemon photo';
-                buttonAdd.appendChild(img);
-            }
+        if (buttonAdd.childNodes.length <= constHeadChild) {
+            let img = document.createElement('img');
+            img.src = 'img/add.png';
+            img.className = 'add';
+            img.alt = 'PhotoLemon photo';
+            buttonAdd.appendChild(img);
+        }
     }
 
     return {
@@ -194,8 +222,9 @@ function addPhotoPost(photoPost) {
         }
         else {
             let posts = document.querySelector(".posts");
-            while (posts.firstChild)
+            while (posts.firstChild) {
                 posts.removeChild(posts.firstChild);
+            }
             displayPhotoPosts();
             return true;
         }
@@ -217,8 +246,9 @@ function editPhotoPost(id, photoPost) {
 function signIn (userName) {
     Dom.signIn(userName);
     let posts = document.querySelector(".posts");
-    while (posts.firstChild)
+    while (posts.firstChild) {
         posts.removeChild(posts.firstChild);
+    }
     displayPhotoPosts(0, 5);
 }
 
