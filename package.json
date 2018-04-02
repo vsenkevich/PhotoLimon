@@ -1,0 +1,25 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vsenkevich/PhotoLimon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vsenkevich/PhotoLimon/issues"
+  },
+  "homepage": "https://github.com/vsenkevich/PhotoLimon#readme",
+  "dependencies": {
+    "accept-language": "^3.0.18",
+    "connect": "^3.6.6",
+    "express": "^4.16.3",
+    "serve-static": "^1.13.2"
+  }
+}
