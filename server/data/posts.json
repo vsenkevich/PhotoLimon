@@ -1,0 +1,152 @@
+[
+  {
+    "id": "1",
+    "description": "Очень вкусный чай - это чаёк с лимоном!\nПопробуйте сами",
+    "createdAt": "2018-02-17T19:39:00.000Z",
+    "author": "BossLemon",
+    "photoLink": "img/img1.jpg",
+    "hashTags": [
+      "lemon",
+      "car",
+      "sleep"
+    ],
+    "likes": [
+      "BossLemon",
+      "Vanya",
+      "DolceVita",
+      "MissLemoni",
+      "Vlados"
+    ]
+  },
+  {
+    "id": "2",
+    "description": "Родиной лимонов считаютсятропики и субтропики Китая, Индии и Бирмы. В настоящее время культивируется в странах Средиземноморья, США, на Кавказе",
+    "createdAt": "2018-02-16T15:12:00.000Z",
+    "author": "MissLemon",
+    "photoLink": "img/img2.jpg",
+    "hashTags": [
+      "interesting",
+      "facts",
+      "lemon",
+      "China",
+      "India"
+    ],
+    "likes": [
+      "Noone:)"
+    ]
+  },
+  {
+    "id": "4",
+    "description": "Лимон предохраняет организм от цинги. Британское Адмиралтейство даже наградило Дж. Кука золотой медалью Королевского общества за спасение жизней и здоровья моряков.",
+    "createdAt": "2018-02-15T18:53:00.000Z",
+    "author": "GirlLime",
+    "photoLink": "img/img4.jpg",
+    "hashTags": [
+      "yellow",
+      "variety",
+      "lemon"
+    ],
+    "likes": [
+      "Vlados"
+    ]
+  },
+  {
+    "id": "6",
+    "description": "Как известно, ветвь оливы является символом мира, лавр – символом славы, а терн – символом суровости и наказания. Лимон по наводке О.Ю. Шмидта стал символом дружбы 126 стран.",
+    "createdAt": "2018-02-15T01:13:00.000Z",
+    "author": "ItsMamix",
+    "photoLink": "img/img6.jpg",
+    "hashTags": [],
+    "likes": [
+      "Branch",
+      "Vanya",
+      "Shmidt",
+      "Symbols",
+      "Victoria",
+      "anonymous",
+      "supporter"
+    ]
+  },
+  {
+    "id": "7",
+    "description": "В испанском фольклоре лимон – это символ горькой, обманутой любви. Сладкую любовь символизирует апельсин.",
+    "createdAt": "2018-02-14T19:02:00.000Z",
+    "author": "Colgate",
+    "photoLink": "img/img7.jpg",
+    "hashTags": [
+      "Spanish",
+      "lemon",
+      "lime",
+      "love",
+      "relationships",
+      "bitter",
+      "sweet"
+    ],
+    "likes": [
+      "BossLemon",
+      "Orange",
+      "Heles",
+      "MissLemoni",
+      "Vlados"
+    ]
+  },
+  {
+    "id": "8",
+    "description": "В XVII веке лимон был практически недоступен простому человеку. Богатые же выписывали лимоны из Голландии. Их им доставляли в соленом виде. Интересно, как они его потом ели?",
+    "createdAt": "2018-02-15T06:35:00.000Z",
+    "author": "KateOnly",
+    "photoLink": "img/img8.jpg",
+    "hashTags": [
+      "yellow",
+      "rich",
+      "Holland"
+    ],
+    "likes": [
+      "Just_user",
+      "Lemonnn"
+    ]
+  },
+  {
+    "id": "9",
+    "description": "На званых вечерах или вообще не подают чернику, или подают ее с ломтиками лимона: черника окрашивает губы, а лимон снимает эту окраску.",
+    "createdAt": "2018-02-13T20:23:00.000Z",
+    "author": "Brandt",
+    "photoLink": "img/img9.jpg",
+    "hashTags": [
+      "evening",
+      "berries",
+      "lips",
+      "colours",
+      "lemon"
+    ],
+    "likes": [
+      "Princess",
+      "King",
+      "Queen",
+      "Prince",
+      "Worker",
+      "Assistant"
+    ]
+  },
+  {
+    "id": "10",
+    "description": "«Реал Мадрид» 4–0 «Алавес» \n1-0 Иско(Бензема) 44\n2-0 Бэйл (Бензема) 46\n3-0 Роналду (Иско) 61\n4-0 Бензема (пен.) 89",
+    "createdAt": "2018-02-11T22:03:00.000Z",
+    "author": "IscoOfficial",
+    "photoLink": "img/img10.jpg",
+    "hashTags": [
+      "soccer",
+      "RM",
+      "Gareth",
+      "Bale",
+      "Karim",
+      "Benzema"
+    ],
+    "likes": [
+      "Vladislav",
+      "Eugene",
+      "Victor",
+      "your_dad"
+    ]
+  }
+]
